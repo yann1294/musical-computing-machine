@@ -1,4 +1,3 @@
-"use client";
 
 import Projet1Intro from "./Projet1Intro";
 import Projet1Partenaire from "./Projet1Partenaire";

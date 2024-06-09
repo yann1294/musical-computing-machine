@@ -1,4 +1,4 @@
-"use client";
+
 
 import ProjetIntro from "./ProjetIntro"
 import ProjetListe from "./ProjetListe"
