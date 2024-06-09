@@ -10,7 +10,6 @@ import AProposStatisques from "./AproposStatistiques";
 
 export default function APropos() {
   return (
-    <>
       <div>
         <AProposPresentation />
         <AProposGoal/>
@@ -19,6 +18,5 @@ export default function APropos() {
         <AProposVision />
         <AProposEquipe />
       </div>
-    </>
   );
 }

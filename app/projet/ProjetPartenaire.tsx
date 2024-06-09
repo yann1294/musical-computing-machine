@@ -12,7 +12,7 @@ const ProjetPartenaire= () => {
     return (
       <section className="mt-12 mx-24 mb-4 pt-8 grid grid-cols-12 min-h-screen bg-cover" >
         <div className=" row-start-1 row-span-5 col-span-12 grid grid-cols-12 ">
-          <h2 className=" text-5xl text-justify pl-5 ml-12 font-bold mb-8" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
+          <h2 className=" text-5xl text-justify pl-5 ml-12 font-bold mb-8 text-black" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
             Nos Partenaires
           </h2>
           <div className=" col-span-12">

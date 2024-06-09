@@ -7,7 +7,6 @@ import Projet1Solution from "./Projet1Solution";
 
 export default function Projet1() {
   return (
-    <>
       <div>
         <Projet1Intro />
         <br />
@@ -16,6 +15,5 @@ export default function Projet1() {
         <Projet1Partenaire/>
 
       </div>
-    </>
   );
 }

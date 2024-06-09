@@ -26,14 +26,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <>
+        <div className="bg-white">
           <TopBar />
           <Navigation toggle={toggleMenu} />
           <br />
           {children}
           <br />
           <Footer />
-        </>
+        </div>
       </body>
     </html>
   );

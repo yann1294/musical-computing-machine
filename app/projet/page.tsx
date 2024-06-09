@@ -9,13 +9,11 @@ import ProjetRapport from "./ProjetRapport"
 
 export default function APropos() {
   return (
-    <>
       <div>
         <ProjetIntro />
         <ProjetListe />
         <ProjetPartenaire />
         <ProjetRapport />
       </div>
-    </>
   );
 }

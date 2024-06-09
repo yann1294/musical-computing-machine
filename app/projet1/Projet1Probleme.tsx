@@ -9,7 +9,7 @@ const Projet1Probleme = () => {
     <section className=" mx-24 mt-8 grid grid-rows-4 grid-cols-12 min-h-screen bg-cover bg-[#EDEDCB]/55 rounded-3xl">
       <div className=" row-span-1 col-span-12 pt-10">
         <h2
-          className=" text-5xl text-center font-bold "
+          className=" text-5xl text-center font-bold text-black"
           style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}
         >
           Problématique
@@ -29,11 +29,11 @@ const Projet1Probleme = () => {
         <div className="col-start-8 col-end-13 mx-2 pl-3">
           <h2 className=" text-xl font-bold text-green-700/55 ">Pollution des rivières</h2>
           <div className="mt-2 pt-4">
-            <p>
+            <p className="text-black">
               En Afrique, la pollution des rivières est un problème
               grave, principalement dû au manque d'assainissement adéquat. 
             </p>  <br />
-            <p>Voici
+            <p className="text-black">Voici
               un résumé de la situation : <br />
               <span><b>
               1. Infrastructures d'assainissement

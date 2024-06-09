@@ -19,13 +19,13 @@ const AProposPresentation: React.FC = () => {
 
         </div> 
         <div className="col-start-6 mt-16 ">
-            <h2 className=" text-5xl text-justify font-bold " style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
+            <h2 className=" text-5xl text-justify font-bold text-black" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
                Palmier 
             </h2>   
         </div>
 
         <div className="col-start-2 col-span-10  ">
-          <p className="text-lg mt-4 p-2">
+          <p className="text-lg mt-4 p-2 text-black">
             Créée en 2015, l'association <b>Palmier</b>  est sans but lucratif. Cette association constitue un 
             <b> laboratoire</b> d'échanges multiculturels et intergénérationnels autour des diverses questions liées à
             l’intégration, l’environnement, l’éducation, la participation citoyenne et démocratique.

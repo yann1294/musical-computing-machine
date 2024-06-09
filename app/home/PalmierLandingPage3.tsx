@@ -8,13 +8,13 @@ const PalmierLandingPage3 = () => {
         <section className="mt-15">
             <div className="px-1 py-1 bg-white mt-12 ml-0 mr-0 rounded-full border-[2px] h-[94px] w-full border-[#B9DEC3]">
                     <div className="h-full flex justify-center items-center space-x-40 rounded-full bg-[#B9DEC3] w-[100%]">
-                        <p className="text-xl">
+                        <p className="text-xl text-black">
                         <span className="text-amber-500 font-bold text-2xl">200+</span><br /> Enfants scolarisés
                         </p>
-                        <p className="text-xl">
+                        <p className="text-xl text-black">
                         <span className="text-amber-500 font-bold text-2xl">30+</span><br /> Partenaires
                         </p>
-                        <p className="text-xl">
+                        <p className="text-xl text-black">
                         <span className="text-amber-500 font-bold text-2xl">4+</span><br /> Pays
                         </p>
                 </div>
@@ -22,7 +22,7 @@ const PalmierLandingPage3 = () => {
         </section>    
         <section className="mt-10">
             <div className=" mt-0 mb-10 flex justify-center items-center ">
-                    <h2 className=" text-5xl text-justify font-bold py-7 " style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
+                    <h2 className=" text-5xl text-justify font-bold py-7 text-black " style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
                         Donnez vie à nos projets    
                     </h2>            
             </div>      

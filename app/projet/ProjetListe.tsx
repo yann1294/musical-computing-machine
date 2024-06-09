@@ -14,10 +14,10 @@ const ProjetListe= () => {
           <Dropdown/>
         </div>
         <div className=" row-start-1 row-end-2 col-start-4 col-span-5">
-          <h2 className=" text-5xl text-center font-bold mb-8" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
+          <h2 className=" text-5xl text-center font-bold mb-8 text-black" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
             Nos Projets
           </h2>  
-          <p>Depuis 2016 Palmier compte dans son actif une vingtaine de projets réalisés.</p>
+          <p className="text-black">Depuis 2016 Palmier compte dans son actif une vingtaine de projets réalisés.</p>
         </div>
         <div className=" row-start-2 row-span-4 col-start-2 col-span-10 ">
           <div className="flex justify-evenly py-14 mt-2 ">

@@ -26,15 +26,15 @@ const Projet1Intro = () => {
             <div className="relative text-white font-medium text-sm">100% - réalisé</div>
           </div>
         </div>
-        <h2 className="mt-3 font-bold text-center text-4xl " style={{fontFamily: "'Swanky and Moo Moo', cursive" }}>
+        <h2 className="mt-3 font-bold text-center text-4xl text-black " style={{fontFamily: "'Swanky and Moo Moo', cursive" }}>
           Gestion des déchets ménagers au Bénin         
         </h2>
-        <p className="mt-4  ">
+        <p className="mt-4 text-black ">
           Grâce au soutien de la ville de Genève, la commune de Plan-les-Ouates, la commune de Meyrin et la commune de Parakou,
           le collectif des Associations de Ramassage des ordures ménagères de Parakou (CCAROM) Parakou a organisé des activités 
           de sensibilisation , formation et   seance d’information des chef contumier :
         </p>
-        <p className="mb-5">
+        <p className="mb-5 text-black">
           <span><b>
             "Soutien au Plan de la gestion des déchets ménagers dans la ville de Parakou au Bénin. 
             Appui au collectif des associations de ramassage des ordures et sensibilisation de la population." 

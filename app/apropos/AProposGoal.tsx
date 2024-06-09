@@ -20,7 +20,7 @@ const AProposGoal: React.FC = () => {
                 />
             </div>
             <div className="row-start-2 row-span-4 mx-20 flex justify-center items-center">
-                <h2 className=" text-5xl text-justify text-pretty font-bold " style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
+                <h2 className=" text-5xl text-justify text-pretty font-bold text-black" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
                    Pour une Afrique des possibles 
                 </h2>
             </div>

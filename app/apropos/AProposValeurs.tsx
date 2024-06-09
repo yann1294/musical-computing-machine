@@ -10,17 +10,17 @@ const AProposValeurs: React.FC = () => {
     <section className="grid grid-rows-7 gap-4 mx-24 min-h-screen bg-cover"
       style={{ backgroundImage: "url('./motif_background.png')" }}>
       <div className="row-span-2 text-center" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
-        <h2 className=" text-5xl  font-bold " > 
+        <h2 className=" text-5xl  font-bold text-black" > 
           Les valeurs
         </h2>
-        <p>africaines nous caractérisent  </p>
+        <p className="text-black">africaines nous caractérisent  </p>
       </div>
       <div className="row-span-5  grid grid-cols-12 gap-4" style={{ backgroundImage: "url('./bckgd_Valeurs.png')" }}>
         <div className="col-span-4 ">
           <div className="flex justify-center">
             <div className="px-1 py-1 bg-white mt-4 ml-6 mr-6 rounded-full border-[1px] w-[50%] border-[#B9DEC3]">
               <div className="px-3 py-0.5 text-center rounded-full bg-[#B9DEC3] w-[100%] h-[100%]">
-                <p>Solidarité </p>
+                <p className="text-black">Solidarité </p>
               </div>
             </div>
           </div>
@@ -33,14 +33,14 @@ const AProposValeurs: React.FC = () => {
             />
           </div>
           <div className="text-center ">
-            <p>Palmier, pour le bien-être</p>
+            <p className="text-black">Palmier, pour le bien-être</p>
           </div>
         </div>
         <div className="col-span-4 ">
         <div className="flex justify-center">
             <div className="px-1 py-1 bg-white mt-4 ml-5 mr-6 rounded-full border-[1px] w-[50%] border-[#B9DEC3]">
               <div className="px-3 py-0.5 text-center rounded-full bg-[#B9DEC3] w-[100%] h-[100%]">
-                <p>Engagement </p>
+                <p className="text-black">Engagement </p>
               </div>
             </div>
           </div>
@@ -53,14 +53,14 @@ const AProposValeurs: React.FC = () => {
               />
           </div>
           <div className="flex justify-center text-center ">
-            <p>Palmier, pour le développement  </p>
+            <p className="text-black">Palmier, pour le développement  </p>
           </div>
         </div>
         <div className=" col-span-4">
         <div className="flex justify-center">
             <div className="px-1 py-1 bg-white mt-4 ml-6 mr-9 rounded-full border-[1px] w-[50%] border-[#B9DEC3]">
               <div className="px-3 py-0.5 text-center rounded-full bg-[#B9DEC3] w-[100%] h-[100%]">
-                <p>Authenticité </p>
+                <p className="text-black">Authenticité </p>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ const AProposValeurs: React.FC = () => {
             />
           </div>
           <div className="text-center ">
-            <p>Palmier, pour la médiation </p>
+            <p className="text-black">Palmier, pour la médiation </p>
           </div>
         </div>
         

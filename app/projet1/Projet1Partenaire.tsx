@@ -8,7 +8,7 @@ const Projet1Partenaire = () => {
 
   return (
     <section className="mt-10 pt-9 mx-24 grid grid-cols-12 min-h-screen bg-cover rounded-3xl" style={{backgroundImage: "url('./BAD.png')", backgroundSize: "100% 100%"}}>
-      <h2 className="row-1 col-span-12 text-5xl text-justify font-bold mb-8" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}    >
+      <h2 className="row-1 col-span-12 text-5xl text-justify font-bold mb-8 text-black" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}    >
         Partenaires locaux
       </h2>
       <div className=" row-2 row-span-2 col-span-12 grid grid-cols-12 py-2 ">
@@ -25,7 +25,7 @@ const Projet1Partenaire = () => {
               SYNTHESE DES ACTIVITES DE SENSIBILISATION DES STRUCTURES DE
               PRECOLLECTE
             </h3>
-            <p className="mt-1">
+            <p className="mt-1 text-black">
               Le samedi 02 novembre 2017 s’est tenue au siège de CCAROM, une
               séance de synthèse des activités de sensibilisation des structures
               de pré-collecte de la commune de Parakou animé par Marc Aurel
@@ -53,7 +53,7 @@ const Projet1Partenaire = () => {
           </div>
         </div>
         <aside className="col-end-13 col-span-3 bg-[#EDEDCB]/25 rounded-3xl">
-          <h2 className="text-center text-xl font-bold ">Temoignages</h2>
+          <h2 className="text-center text-xl font-bold text-black">Temoignages</h2>
           <div className=" h-[90%] carousel carousel-vertical max-w-md mt-4 p-4 ml-4 space-x-4 flex items-justify items-center bg-hero-pattern">
             <div className="mb-5 divide-y-4">
               <div className="carousel-item  ">
@@ -65,7 +65,7 @@ const Projet1Partenaire = () => {
                   className="mb-3 rounded-full  px-1 py-1 border-[1px] border-amber-500"
                 />
               </div>
-              <p className="italic">
+              <p className="italic text-black">
                 Grâce aux techniques apprises, <span><b>j'ai pu créer un environnement plus sain </b></span>pour ma famille. - Barako
               </p>
             </div>
@@ -79,7 +79,7 @@ const Projet1Partenaire = () => {
                   className="mb-3 rounded-full px-1 py-1 border-[1px] border-amber-500"
                 />
               </div>
-              <p className="italic">Je suis <span><b>désormais capable de trier mes déchets</b></span>, 
+              <p className="italic text-black">Je suis <span><b>désormais capable de trier mes déchets</b></span>, 
               alors qu'auparavant, je les brûlais et les débris m'asphyxiaient. - Banik</p>
             </div>
             <div className="divide-y-4">
@@ -92,7 +92,7 @@ const Projet1Partenaire = () => {
                   className="mb-3 rounded-full px-1 py-1 border-[1px] border-amber-500"
                 />
               </div>
-              <p className="italic">
+              <p className="italic text-black">
                 Nettoyer régulièrement les toilettes et les points d'eau a <span><b>considérablement réduit les infections dans notre communauté.</b></span>- Koro
               </p>
             </div>

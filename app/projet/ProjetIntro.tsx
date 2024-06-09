@@ -11,7 +11,7 @@ const ProjetIntro = () => {
           </h2>
         </div>
         <div className="col-span-12 text-center text-xl py-1.5  flex items-center p-5 pl-24 pr-24 leading-loose">
-          <p>
+          <p className="text-black">
             Nous développons des projets transformateurs pour les communautés dans le besoin à travers l’Afrique. 
             Grâce à votre soutien, nous pouvons améliorer la future génération. 
             Rejoignez-nous et participez à la création d'un avenir meilleur !
