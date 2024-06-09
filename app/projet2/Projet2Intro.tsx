@@ -25,7 +25,18 @@ const Projet1Intro = () => {
 
   return (
     <section className="mt-10 mx-24 mb-10 min-h-screen bg-cover">
-      <div className="col-span-12 bg-cover bg-no-repeat" style={style_background}></div>
+      <div className="col-span-12 bg-cover bg-no-repeat" style={style_background}>
+        {/*<div
+          style={style_intro}
+          className="h-60 w-80 mt-24 absolute right-24 rounded-t-lg"
+        >
+          <Image
+            src="/projets/projet1/projet1.1.png"
+            layout="fill"
+            alt="Bonne maman"
+          />
+        </div>*/}
+      </div>
       <div className="col-span-12 px-4">
         <h2 className="mt-10 font-bold text-center text-3xl text-green-700/75" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
           Gestion des déchets ménagers au Bénin
