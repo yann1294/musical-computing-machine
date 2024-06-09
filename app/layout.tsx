@@ -1,4 +1,4 @@
-"use client";
+
 
 import Navigation from "./components/navigation/navbar";
 import type { Metadata } from "next";
