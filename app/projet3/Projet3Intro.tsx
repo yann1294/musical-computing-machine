@@ -57,9 +57,9 @@ const Projet3Intro = () => {
           <div className="relative flex w-full h-2.5  overflow-hidden rounded-3xl bg-gray-100">
             <div
               role="progressbar"
-              aria-valuenow="50"
-              aria-valuemin="0"
-              aria-valuemax="100"
+              aria-valuenow={50}
+              aria-valuemin={0}
+              aria-valuemax={100}
               style={style_progress_bar}
               className="flex h-full items-center justify-center bg-progress_bar  text-white rounded-3xl "
             ></div>
