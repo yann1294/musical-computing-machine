@@ -49,10 +49,10 @@ const PalmierLandingPage3 = () => {
                                         <div className="relative text-amber-500  text-xs">40%</div>
                                     </div>
                                 </div>
-                                <div className="absolute  bg-amber-500 text-white text-bold text-[17px] font-medium px-2 ml-4 mt-4 pt-5 flex items-center">Construction école </div>
+                                <div className="absolute  bg-amber-500 text-white text-bold text-[17px] font-medium p-1 mx-6 my-3 flex items-center">Construction école </div>
                             </figure>    
                             <figcaption>
-                                <div className="pl-10 py-12 mt-3 ml-2">
+                                <div className="my-14 mx-6">
                                     <p className="text-base text-gray-700 ">
                                         Objectif : CHF 10000 
                                     </p>
@@ -84,10 +84,10 @@ const PalmierLandingPage3 = () => {
                                         <div className="relative text-white  text-xs">60%</div>
                                     </div>
                                 </div>
-                                <div className="absolute  bg-amber-500 text-white text-bold text-[17px] font-medium px-[10px] ml-8 mr-2 mt-4 pt-[5px] flex items-center">Soutien nouveau né </div>
+                                <div className="absolute  bg-amber-500 text-white text-bold text-[17px] font-medium p-1 mx-6 my-3 flex items-center">Soutien nouveau né </div>
                             </figure>    
                             <figcaption>
-                                <div className="pl-10 py-12 mt-3 ml-2">
+                                <div className="my-14 mx-6">
                                     <p className="text-base text-gray-700 ">
                                         Objectif : CHF 10000 
                                     </p>
