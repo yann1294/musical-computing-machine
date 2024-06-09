@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <>
         <TopBar/>
-        <Navigation toggle={()=>{}}/>
+        <Navigation/>
         <br />
         {children}
         </>
