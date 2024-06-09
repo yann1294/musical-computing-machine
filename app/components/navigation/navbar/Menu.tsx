@@ -8,7 +8,7 @@ const Menu = () => {
             <ul className="hidden md:flex gap-x-20 text-black text-base font-bold ">
                 <li className=" hover:text-green-600">
                     <Link href="/home">
-                    <p >Acceuil</p>
+                    <p >Accueil</p>
                     </Link>
                 </li>
                 <li className=" hover:text-green-600">

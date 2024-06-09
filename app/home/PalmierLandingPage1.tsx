@@ -13,7 +13,7 @@ return(
     <div className=" col-span-5 ">
         <div style={{ flex: '1', backgroundColor: '', height: '45%' }}>
             {/* Content for the first inner div */}
-            <p className="text-5xl text-justify text-pretty  font-bold  py-20 px-8 mt-10 mx-20 " style={{ fontFamily: "'Swanky and Moo Moo', cursive", lineHeight: '1.3' }}>
+            <p className="text-5xl text-justify text-pretty  font-bold  py-20 px-8 mt-10 mx-20 text-black " style={{ fontFamily: "'Swanky and Moo Moo', cursive", lineHeight: '1.3' }}>
                 Partenaire du <span className="text-green-700"> changement</span> pour un impact durable <span className="text-green-700"> en Afrique</span>
             </p>
         </div>

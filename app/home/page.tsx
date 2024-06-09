@@ -6,7 +6,7 @@ import PalmierLandingPage3 from "./PalmierLandingPage3";
 const Home = () => {
   return (
       <div className="container mx-auto px-4">
-          <main className="">
+          <main>
             <PalmierLandingPage1/>
             <div style={{ height: '5vh' }} />
             <PalmierLandingPage2/>
