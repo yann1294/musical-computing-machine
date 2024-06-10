@@ -69,7 +69,7 @@ const ProjetListe= () => {
                 </Link>
             </div>
             <div className="max-w-sm m-2  rounded-tl-full rounded-tr-full rounded-bl-full rounded-br-full shadow-lg bg-[#B9DEC3] " style={{ maxWidth: '300px' }}>
-              <Link href="#">
+            <Link href="/projet2">
 
                 <figure className="cursor-pointer ">
                   <div>
@@ -117,7 +117,7 @@ const ProjetListe= () => {
               </Link>
             </div>
             <div className="max-w-sm m-2  rounded-tl-full rounded-tr-full rounded-bl-full rounded-br-full shadow-lg bg-[#B9DEC3] " style={{ maxWidth: '300px' }}>
-              <Link href="#">
+              <Link href="/projet3">
                 <figure className="cursor-pointer ">
                   <div>
                     <Image
@@ -186,7 +186,7 @@ const ProjetListe= () => {
                       Début : 2018 
                     </p>
                     <p className="text-base text-gray-700 ">
-                      Lieu : Nganda-Tsundi, RDC
+                    Lieu : Nganda, Congo
                     </p>
                   </div>
                   <div className="flex items-center justify-center py-[6px] px-3 mt-3 mx-auto bg-[rgba(248,184,100,0.8)] hover:bg-amber-500 text-white text-[14px] font-medium w-max">
