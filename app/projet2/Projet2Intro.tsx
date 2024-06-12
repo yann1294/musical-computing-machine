@@ -20,15 +20,15 @@ const Projet2Intro = () => {
       </div>
 
       <div className="col-span-12 px-4">
-        <div className="bg-white rounded-xl shadow-sm overflow-hidden pt-5 col-span-12">
+        <div className="bg-white rounded-xl shadow-sm overflow-hidden mt-5 col-span-12 border-amber-500 border">
           <div className="relative h-6 flex items-center justify-center">
             <div className="absolute top-0 bottom-0 left-0 rounded-lg w-[70%] bg-amber-500"></div>
             <div className="relative text-white font-medium text-sm">70% - réalisé</div>
           </div>
         </div>
-        <h2 className="mt-3 font-bold text-center text-4xl text-black " style={{fontFamily: "'Swanky and Moo Moo', cursive" }}>
+        <h2 className="mt-3 font-bold text-center text-4xl " style={{fontFamily: "'Swanky and Moo Moo', cursive" }}>
           Renforcement des capacités en hygiène et assainissement des écoles primaires </h2>
-        <p className="mt-4  text-black">
+        <p className="mt-4  ">
           Débuté en 2017 sous la direction de l’association APEENOSA – ONG,
           membre de CCAROM, <span><b>plusieurs activités sont encours de réalisation dans
           le but d’amélioration des conditions d’hygiène et d’assainissement

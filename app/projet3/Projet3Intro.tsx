@@ -3,12 +3,12 @@
 import React from "react";
 import Image from "next/image";
 
-const Projet2Intro = () => {
+const Projet3Intro = () => {
   const intro = require("../../public/projets/projet3/projet3_intro.jpeg");
 
   return (
     <section className=" mx-24 mb-10 min-h-screen bg-cover grid grid-rows-3 " >
-      <div className="col-span-12 row-span-2 flex justify-center items-end bg-cover object-cover bg-no-repeat " style={{ backgroundImage: "url('/projet3Introbckgd.png')"}} >
+      <div className="col-span-12 row-span-2 flex justify-center items-end bg-cover object-cover bg-no-repeat " style={{ backgroundImage: "url('/projet3IntroBckgd.png')"}} >
         <div className="  ">
           <Image
             src={intro}
@@ -19,15 +19,15 @@ const Projet2Intro = () => {
       </div>
 
       <div className="col-span-12 px-4">
-        <div className="bg-white rounded-xl shadow-sm overflow-hidden pt-5 col-span-12">
-          <div className="relative h-6 flex items-center justify-center">
-            <div className="absolute top-0 bottom-0 left-0 rounded-lg w-[100%] bg-green-700"></div>
-            <div className="relative text-white font-medium text-sm">100% - réalisé</div>
+        <div className="bg-white rounded-xl shadow-sm overflow-hidden mt-5 col-span-12 border-red-600 border">
+          <div className="relative h-6 flex items-center justify-start ">
+            <div className="absolute top-0 bottom-0 left-0 rounded-lg w-[30%] bg-red-600"></div>
+            <div className="relative text-white font-medium text-sm pl-20 ml-20">30% - réalisé</div>
           </div>
         </div>
-        <h2 className="mt-3 font-bold text-center text-4xl text-black" style={{fontFamily: "'Swanky and Moo Moo', cursive" }}>
+        <h2 className="mt-3 font-bold text-center text-4xl " style={{fontFamily: "'Swanky and Moo Moo', cursive" }}>
           Permanence de soutien scolaire aux enfants de Vernier en difficulté scolaire        </h2>
-        <p className="mt-4  text-black">
+        <p className="mt-4  ">
           Depuis sa mise en place en 2016, l’association Palmier continue au
           travers du projet Piplette sa permanence de soutien scolaire pour
           venir en aide aux enfants de Vernier en difficulté scolaire.
@@ -45,4 +45,4 @@ const Projet2Intro = () => {
   );
 };
 
-export default Projet2Intro;
+export default Projet3Intro;

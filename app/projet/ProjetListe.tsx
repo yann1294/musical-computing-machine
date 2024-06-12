@@ -1,4 +1,3 @@
-
 import React from "react";
 import Link from "next/link";
 
@@ -14,10 +13,10 @@ const ProjetListe= () => {
           <Dropdown/>
         </div>
         <div className=" row-start-1 row-end-2 col-start-4 col-span-5">
-          <h2 className=" text-5xl text-center font-bold mb-8 text-black" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
+          <h2 className=" text-5xl text-center font-bold mb-8" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
             Nos Projets
           </h2>  
-          <p className="text-black">Depuis 2016 Palmier compte dans son actif une vingtaine de projets réalisés.</p>
+          <p>Depuis 2016 Palmier compte dans son actif une vingtaine de projets réalisés.</p>
         </div>
         <div className=" row-start-2 row-span-4 col-start-2 col-span-10 ">
           <div className="flex justify-evenly py-14 mt-2 ">
@@ -69,8 +68,7 @@ const ProjetListe= () => {
                 </Link>
             </div>
             <div className="max-w-sm m-2  rounded-tl-full rounded-tr-full rounded-bl-full rounded-br-full shadow-lg bg-[#B9DEC3] " style={{ maxWidth: '300px' }}>
-            <Link href="/projet2">
-
+              <Link href="/projet2">
                 <figure className="cursor-pointer ">
                   <div>
                     <Image
@@ -164,7 +162,7 @@ const ProjetListe= () => {
               </Link>
             </div> 
             <div className="max-w-sm m-2  rounded-tl-full rounded-tr-full rounded-bl-full rounded-br-full shadow-lg bg-[#B9DEC3] " style={{ maxWidth: '300px' }}>
-              <Link href="#">
+              <Link href="/projet4">
                 <figure className="cursor-pointer ">
                   <div>
                     <Image
@@ -177,7 +175,7 @@ const ProjetListe= () => {
                      />
                   </div>
                   <div className="  bg-amber-500 text-white text-center text-bold text-[17px] font-medium px-[8px] ml-4 mr-4 mt-4 pt-[5px] flex items-center ">
-                    <p className="px-5">Réfection de l’école </p> 
+                    <p className="px-5">Réfection d’une école </p> 
                   </div>
                 </figure>    
                 <figcaption>
@@ -186,7 +184,7 @@ const ProjetListe= () => {
                       Début : 2018 
                     </p>
                     <p className="text-base text-gray-700 ">
-                    Lieu : Nganda, Congo
+                      Lieu : Nganda, Congo
                     </p>
                   </div>
                   <div className="flex items-center justify-center py-[6px] px-3 mt-3 mx-auto bg-[rgba(248,184,100,0.8)] hover:bg-amber-500 text-white text-[14px] font-medium w-max">
@@ -201,8 +199,7 @@ const ProjetListe= () => {
             stroke="currentColor"
             strokeWidth="2"
             strokeLinecap="round"
-            strokeLinejoin="round"
-          >
+            strokeLinejoin="round">
             <path d="M5 12h14"></path>
             <path d="m12 5 7 7-7 7"></path>
           </svg>
