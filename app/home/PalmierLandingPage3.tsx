@@ -26,7 +26,7 @@ const PalmierLandingPage3 = () => {
                         Donnez vie à nos projets    
                     </h2>            
             </div>      
-            <div className=" bg-cover bg-center  w-full" style={{ backgroundImage: "url('bckGdS3.png')", backgroundSize: "100% 100%" }}>
+            <div className=" bg-cover bg-center  w-full" style={{ backgroundImage: "url('/bgPalmierLanding3.png')", backgroundSize: "100% 100%" }}>
                 <div className="flex justify-evenly py-14 mt-2">
                     <div className="max-w-sm m-2 overflow-visible scroll-smooth rounded-tl-full rounded-tr-full rounded-bl-full rounded-br-full shadow-lg bg-[#B9DEC3] hover:bg-[#EDEDCB]" style={{ maxWidth: '300px' }}>
                         <Link href="projet4">
