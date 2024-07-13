@@ -13,7 +13,8 @@ export default function APropos() {
       <div>
         <AProposPresentation />
         <AProposGoal/>
-        <AProposStatisques />
+        <AProposStatisques /> 
+        <div style={{ height: '11vh' }} />
         <AProposValeurs />
         <AProposVision />
         <AProposEquipe />

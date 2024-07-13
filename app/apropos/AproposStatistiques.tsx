@@ -9,7 +9,7 @@ const AProposStatisques: React.FC = () => {
   //const video_fille = String(video_fille_souriante);
   const style = { color: "#F59300", fontSize: 60 };
   return (
-<section className="block mt-[-110px] min-h-[360px]" > 
+<section className="hidden sm:block mt-[-110px] min-h-[360px]" > 
   <div className="w-full z-10"> 
     <div className="container mx-auto "> 
       <div className="grid md:grid-rows-3 grid-cols-4 shadow-2xl pt-9 px-9 " style={{ backgroundImage: "url('./bckgdStats.png')" }}>

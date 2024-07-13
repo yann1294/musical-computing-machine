@@ -10,7 +10,7 @@ const Home = () => {
             <PalmierLandingPage1/>
             <div style={{ height: '5vh' }} />
             <PalmierLandingPage2/>
-            <div style={{ height: '5vh' }} />
+            <div style={{ height: '9vh' }} />
             <PalmierLandingPage3/>
           </main>
 
