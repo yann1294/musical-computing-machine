@@ -11,15 +11,15 @@ const ProjetRapport= () => {
   const devant = require("../../public/devant.png");
 
     return (
-    <section className=" mt-16 mx-24 min-h-screen bg-center bg-cover " style={{ backgroundImage: "url('./motif_background.png')", backgroundSize: "100% 100%" }}>
+    <section className=" mt-16 mx-0 md:mx-24 min-h-screen bg-center bg-cover " style={{ backgroundImage: "url('./motif_background.png')", backgroundSize: "100% 100%" }}>
       <div className=" text-end pb-8"> 
-        <h2 className=" text-5xl font-bold mb-8 text-black" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
+        <h2 className=" text-4xl md:text-5xl font-bold mb-8 text-black sm:text-justify md:text-right" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
           Nos rapports d'activités
         </h2>
-        <p className="mr-8 text-black">Découvrez nos activités de façon détaillée.</p>
+        <p className="mr-8 text-black">Découvrez nos activités de façon détaillée</p>
       </div>
       <div className="carousel ">
-        <div id="slide1" className="carousel-item  w-full gap-4  grid grid-cols-6 ">
+        <div id="slide1" className="carousel-item  w-full gap-1 md:gap-4 grid grid-cols-6 ">
           <div className=" flex justify-center mt-12 ">
             <a href="#slide3" className="btn btn-circle ">❮</a> 
           </div>
@@ -31,9 +31,9 @@ const ProjetRapport= () => {
                   />
                 </div>
                 <div className="text-center font-bold text-3xl mt-6 text-black" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>2020</div>
-                <div className="text-center mb-2 pt-2 text-black">En dépit du Covid 19</div>
+                <div className="text-center mb-2 pt-2 text-xs md:text-base text-black">En dépit du Covid 19</div>
                 <Link href="assets/Rapport2020.pdf" target="_blank">
-                  <div className="flex items-center justify-center py-[6px] px-3 mt-3 mx-auto mb-4 bg-[rgba(248,184,100,0.8)] hover:bg-amber-500 text-white text-[14px] font-medium w-max">
+                  <div className="flex items-center justify-center py-[5px] px-2 md:py-[6px] md:px-3 mt-3 mx-auto mb-4 bg-[rgba(248,184,100,0.8)] hover:bg-amber-500 text-white  text-[12px] md:text-[14px] font-medium w-max">
                     Télécharger le PDF
                   </div>  
                 </Link>  
@@ -46,9 +46,9 @@ const ProjetRapport= () => {
                   />
                 </div>
                 <div className="text-center font-bold text-3xl mt-6 text-black" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>2021</div>
-                <div className="text-center mb-2 pt-2 text-black">Palmier ne cesse de croitre</div>
+                <div className="text-center mb-2 pt-2 text-xs md:text-base text-black">Palmier ne cesse de croitre</div>
                 <Link href="assets/Rapport2021.pdf" target="_blank">
-                  <div className="flex items-center justify-center py-[6px] px-3 mt-3 mx-auto mb-4 bg-[rgba(248,184,100,0.8)] hover:bg-amber-500 text-white text-[14px] font-medium w-max">
+                  <div className="flex items-center justify-center py-[5px] px-2 md:py-[6px] md:px-3 mt-3 mx-auto mb-4 bg-[rgba(248,184,100,0.8)] hover:bg-amber-500 text-white text-[12px] md:text-[14px] font-medium w-max">
                     Télécharger le PDF
                   </div>  
                 </Link>  
@@ -57,7 +57,7 @@ const ProjetRapport= () => {
             <a href="#slide2" className="btn btn-circle">❯</a>
           </div>  
         </div> 
-        <div id="slide2" className="carousel-item  w-full gap-4 grid grid-cols-6 ">
+        <div id="slide2" className="carousel-item  w-full gap-1 md:gap-4 grid grid-cols-6 ">
           <div className=" flex justify-center mt-12 ">
             <a href="#slide1" className="btn btn-circle ">❮</a> 
           </div>
@@ -69,9 +69,9 @@ const ProjetRapport= () => {
                   />
                 </div>
                 <div className="text-center font-bold text-3xl mt-6 text-black" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>2022</div>
-                <div className="text-center mb-2 pt-2 text-black">Palmier fixe ses racines</div>
+                <div className="text-center mb-2 pt-2 text-xs md:text-base text-black">Palmier fixe ses racines</div>
                 <Link href="assets/Rapport2022.pdf" target="_blank">
-                  <div className="flex items-center justify-center py-[6px] px-3 mt-3 mx-auto mb-4 bg-[rgba(248,184,100,0.8)] hover:bg-amber-500 text-white text-[14px] font-medium w-max">
+                  <div className="flex items-center justify-center py-[5px] px-2 md:py-[6px] md:px-3 mt-3 mx-auto mb-4 bg-[rgba(248,184,100,0.8)] hover:bg-amber-500 text-white text-[12px] md:text-[14px] font-medium w-max">
                     Télécharger le PDF
                   </div>  
                 </Link>    
@@ -84,9 +84,9 @@ const ProjetRapport= () => {
                   />
                 </div>
                 <div className="text-center font-bold text-3xl mt-6 text-black" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>2018</div>
-                <div className="text-center mb-2 pt-2 text-black">Palmier deploie ses rameaux</div>
+                <div className="text-center mb-2 pt-2 text-xs md:text-base text-black">Palmier deploie ses rameaux</div>
                 <Link href="assets/Rapport2018.pdf" target="_blank">
-                  <div className="flex items-center justify-center py-[6px] px-3 mt-3 mx-auto mb-4 bg-[rgba(248,184,100,0.8)] hover:bg-amber-500 text-white text-[14px] font-medium w-max">
+                  <div className="flex items-center justify-center py-[5px] px-2 md:py-[6px] md:px-3 mt-3 mx-auto mb-4 bg-[rgba(248,184,100,0.8)] hover:bg-amber-500 text-white text-[12px] md:text-[14px] font-medium w-max">
                     Télécharger le PDF
                   </div>  
                 </Link>    
@@ -95,7 +95,7 @@ const ProjetRapport= () => {
             <a href="#slide3" className="btn btn-circle">❯</a>
           </div>  
         </div> 
-        <div id="slide3" className="carousel-item  w-full gap-4 grid grid-cols-6 ">
+        <div id="slide3" className="carousel-item  w-full gap-1 md:gap-4 grid grid-cols-6 ">
           <div className=" flex justify-center mt-12 ml-12 ">
             <a href="#slide2" className="btn btn-circle">❮</a> 
           </div>
@@ -107,9 +107,9 @@ const ProjetRapport= () => {
                   />
                 </div>
                 <div className="text-center font-bold text-3xl mt-6 text-black" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>2017</div>
-                <div className="text-center mb-2 pt-2 text-black">Palmier continue dans sa lancé</div>
+                <div className="text-center mb-2 pt-2 text-xs md:text-base text-black">Palmier continue dans sa lancé</div>
                 <Link href="assets/RapportPalmier.pdf" target="_blank">
-                  <div className="flex items-center justify-center py-[6px] px-3 mt-3 mx-auto mb-4 bg-[rgba(248,184,100,0.8)] hover:bg-amber-500 text-white text-[14px] font-medium w-max">
+                  <div className="flex items-center justify-center py-[5px] px-2 md:py-[6px] md:px-3 mt-3 mx-auto mb-4 bg-[rgba(248,184,100,0.8)] hover:bg-amber-500 text-white text-[12px] md:text-[14px] font-medium w-max">
                     Télécharger le PDF
                   </div>  
                 </Link>    

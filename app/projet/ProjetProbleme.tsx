@@ -9,7 +9,7 @@ import ImageSlider from "@/components/ImageSlider";
 const ProjetProbleme= () => {
 
     return (
-      <section className="mt-10 mx-24 grid grid-rows-4 grid-cols-12 min-h-screen bg-cover" >
+      <section className="mt-10 mx-0 md:mx-24 grid grid-rows-4 grid-cols-12 min-h-screen bg-cover" >
         <div className=" row-span-1 col-span-12">
           <h2 className=" text-5xl text-center font-bold mb-8" style={{ fontFamily: "'Swanky and Moo Moo', cursive" }}>
             Problématique

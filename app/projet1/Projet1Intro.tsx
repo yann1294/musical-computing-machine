@@ -7,9 +7,9 @@ const Projet1Intro = () => {
   const intro = require("../../public/projets/projet1/projet1.1.png");
 
   return (
-    <section className=" mt-10 mx-24 mb-10 min-h-screen bg-cover grid grid-rows-3 " >
-      <div className="col-span-12 row-span-2 flex justify-center bg-cover object-cover bg-no-repeat " style={{ backgroundImage: "url('/projets/projet1/Projt1bcgdIntro.png')"}} >
-        <div className=" w-[70%] pt-12">
+    <section className=" mt-0 md:mt-10 mx-0 md:mx-24 md:mb-10 min-h-screen bg-cover grid grid-rows-3 " >
+      <div className="col-span-12 row-span-2 flex justify-center md:bg-cover object-cover bg-no-repeat " style={{ backgroundImage: "url('/projets/projet1/Projt1bcgdIntro.png')"}} >
+        <div className=" w-[100%] md:w-[70%] pt-12">
           <Image
           src={intro}
           className=" rounded-tl-full	rounded-tr-full"
@@ -26,15 +26,15 @@ const Projet1Intro = () => {
             <div className="relative text-white font-medium text-sm">100% - réalisé</div>
           </div>
         </div>
-        <h2 className="mt-3 font-bold text-center text-4xl " style={{fontFamily: "'Swanky and Moo Moo', cursive" }}>
+        <h2 className="mt-3 font-bold text-center text-xl md:text-4xl " style={{fontFamily: "'Swanky and Moo Moo', cursive" }}>
           Gestion des déchets ménagers au Bénin         
         </h2>
-        <p className="mt-4  ">
+        <p className="mt-4 text-sm md:text-base ">
           Grâce au soutien de la ville de Genève, la commune de Plan-les-Ouates, la commune de Meyrin et la commune de Parakou,
           le collectif des Associations de Ramassage des ordures ménagères de Parakou (CCAROM) Parakou a organisé des activités 
           de sensibilisation , formation et   seance d’information des chef contumier :
         </p>
-        <p className="mb-5">
+        <p className="md:mb-5 text-sm md:text-base">
           <span><b>
             "Soutien au Plan de la gestion des déchets ménagers dans la ville de Parakou au Bénin. 
             Appui au collectif des associations de ramassage des ordures et sensibilisation de la population." 

@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Projet1Probleme = () => {
   return (
-    <section className=" mx-24 mt-8 grid grid-rows-4 grid-cols-12 min-h-screen bg-cover bg-[#EDEDCB]/55 rounded-3xl">
+    <section className=" mx-0 mb:mx-24 mt-8 grid grid-rows-4 grid-cols-12 min-h-screen bg-cover bg-[#EDEDCB]/55 rounded-3xl">
       <div className=" row-span-1 col-span-12 pt-10">
         <h2
           className=" text-5xl text-center font-bold text-black"
